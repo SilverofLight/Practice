@@ -2,9 +2,9 @@
 初学go语言，存一些做过的练习题
 
 ## array
-[连续和为x的数](array/ex2/addIsX)
-[多数元素](array/map/main.go)
-[腐烂中的橘子](array/oriangeRotting/main.go)
+[连续和为x的数](array/ex2/addIsX)\n
+[多数元素](array/map/main.go)\n
+[腐烂中的橘子](array/oriangeRotting/main.go)\n
 [最大回文字段](array/Palindrome/main.go)
 
 ## dfs
