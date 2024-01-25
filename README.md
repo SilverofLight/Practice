@@ -2,7 +2,7 @@
 初学go语言，存一些做过的练习题
 
 ## array
-  [连续和为x的数](array/ex2/addIsX)
+  [连续和为x的数](array/ex2/addIsX.go)
   [多数元素](array/map/main.go)
   [腐烂中的橘子](array/oriangeRotting/main.go)
   [最大回文字段](array/Palindrome/main.go)
@@ -13,6 +13,14 @@
   [机器人走路的不同路径](dfs/robotWalking/main.go)
 
 ## dp
+  [买卖股票的时间](dp/best_time_to_buy_stock/main.go)
+  [斐波那契](dp/fib/main.go)
+  [最长上升子序列](dp/lengthOfLIS/main.go)
+  [最大乘积](dp/maxProduct/main.go)
+  [最小路径和](dp/minimumTotal/main.go)
+  [青蛙跳台阶](dp/numWays/main.go)
 
 ## strings
-
+  [字符串压缩](string/compressStrings/main.go)
+  [字符串的公因数](string/gcd_of_strings/main.go)
+  [最后一个单词的长度](string/length_of_last_word/main.go)
