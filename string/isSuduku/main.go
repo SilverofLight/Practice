@@ -46,14 +46,14 @@ func isValidSudoku(board [][]byte) bool {
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
 			if board[i][j] != '.' {
-				map[board[i][j]]++
-				if map[board[i][j]] == 2 {
+				m[board[i][j]]++
+				if m[board[i][j]] == 2 {
 					return false
 				}
 			}
 		}
-		for k = 1; k < 10; k++{
-			delete(m, byte(i))
+		for k := 1; k < 10; k++{
+			delete(m, byte(k))
 		}
 	}
 	
@@ -61,14 +61,14 @@ func isValidSudoku(board [][]byte) bool {
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
 			if board[j][i] != '.' {
-				map[board[j][i]]++
-				if map[board[j][i]] == 2 {
+				m[board[j][i]]++
+				if m[board[j][i]] == 2 {
 					return false
 				}
 			}
 		}
-		for k = 1; k < 10; k++{
-			delete(m, byte(i))
+		for k := 1; k < 10; k++{
+			delete(m,byte(k))
 		}
 	} 
 	//每一格
@@ -77,15 +77,15 @@ func isValidSudoku(board [][]byte) bool {
 			for k := 0; k < 3; k++ {
 				for l := 0; l < 3; l++ {
 					if board[i+k][j+l] != '.' {
-						map[board[i+k][j+l]]++
-						if map[board[i+k][j+l]] == 2 {
+						m[board[i+k][j+l]]++
+						if m[board[i+k][j+l]] == 2 {
 							return false
 						}
 					}
 				}
 			}
-			for m := 0; m < 10; m++ {
-				delete(m,byte(i))
+			for n := 1; n < 10; n++ {
+				delete(m,byte(n))
 			}
 		}
 	}
@@ -104,4 +104,6 @@ func main(){
 		{'.','.','.','.','.','.','.','.','.'},
 		{'.','.','.','.','.','.','.','.','.'},
 	}
+	result := isValidSudoku(board)
+	fmt.Println(result)
 }
