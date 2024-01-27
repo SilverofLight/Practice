@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+//自己写的方法
 /*请你判断一个 9 x 9 的数独是否有效。只需要 根据以下规则 ，验证已经填入的数字是否有效即可。
 
     数字 1-9 在每一行只能出现一次。
@@ -42,9 +42,35 @@ import "fmt"
 func isValidSudoku(board [][]byte) bool {
 	//可以做多层循环
 	m := make(map[byte]int)
+	//每一行可不可行
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
-			
+			if board[i][j] != '.' {
+				map[board[i][j]]++
+				if map[board[i][j]] == 2 {
+					return false
+				}
+			}
+		}
+		for i = 1; i < 10; i++{
+			delete(m, byte(i))
 		}
 	}
+	
+	//每一列
+	for i := 0; i < 9; i++ {
+		for j := 0; j < 9; j++ {
+			if board[j][i] != '.' {
+				map[board[j][i]]++
+				if map[board[j][i]] == 2 {
+					return false
+				}
+			}
+		}
+		for i = 1; i < 10; i++{
+			delete(m, byte(i))
+		}
+	} 
+	//每一格
+
 }
