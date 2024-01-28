@@ -24,3 +24,5 @@
   [字符串压缩](string/compressStrings/main.go)
   [字符串的公因数](string/gcd_of_strings/main.go)
   [最后一个单词的长度](string/length_of_last_word/main.go)
+  [判断数独是否可用(自己写的)](string/isSuduku/main.go)
+  [判断数独是否可用(力扣官方)](string/isSuduku/main1.go)
