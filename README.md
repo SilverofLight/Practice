@@ -8,10 +8,10 @@
   [最大回文字段](array/Palindrome/main.go)   
 
 ## dfs
-  [平衡树](dfs/balanceTree/main.go)
+  [平衡树](dfs/balanceTree/main.go)  
   [节点到叶子节点的和为指定数的路径](dfs/pathSum/main.go)  
   [机器人走路的不同路径](dfs/robotWalking/main.go)  
-  [解数独](dfs/solveSiduku/main.go)  
+  [解数独](dfs/solveSudoku/main.go)  
 
 ## dp
   [买卖股票的时间](dp/best_time_to_buy_stock/main.go)  
