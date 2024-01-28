@@ -49,16 +49,15 @@ import "strconv"
 // 				delete(m, str[j])
 // 			}
 // 		}
-// 		str = ptr
-// 		// //最后一项没有扫到，且字符串无法修改,用rune转换成切片
-// 		// strSli := []rune(ptr)
-// 		// //如果最后一项和倒数第二相一样，map+1；不一样就加一项
-// 		// if str[len(str)-1] == str[len(str)-2] {
-// 		// 	strSli[len(strSli)-2] = strSli[len(strSli)-2] + 1
-// 		// }else{
-// 		// 	strSli = append(strSli, '1', rune(str[len(str)-1]))
-// 		// }
-// 		// str = string(strSli)
+// 		//最后一项没有扫到，且字符串无法修改,用rune转换成切片
+// 		strSli := []rune(ptr)
+// 		//如果最后一项和倒数第二相一样，map+1；不一样就加一项
+// 		if str[len(str)-1] == str[len(str)-2] {
+// 			strSli[len(strSli)-2] = strSli[len(strSli)-2] + 1
+// 		}else{
+// 			strSli = append(strSli, '1', rune(str[len(str)-1]))
+// 		}
+// 		str = string(strSli)
 // 	}
 	
 // 	return str
