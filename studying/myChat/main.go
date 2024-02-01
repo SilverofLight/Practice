@@ -10,7 +10,7 @@ import (
 )
 
 //来自https://www.thepolyglotdeveloper.com/2016/12/create-real-time-chat-app-golang-angular-2-websockets/ 的项目
-//写一个可以和服务端对话的客户端
+//写一个可以和服务端对话的客户端(只抄了golang部分)
 /* 引入了go get github.com/gorilla/websocket
 go get github.com/satori/go.uuid */
 
