@@ -8,6 +8,7 @@
   [最大回文字段](array/Palindrome/main.go)   
   [外观数列](array/countAndSay/main.go)
   [缺失的第一个正数](array/missingNum/main.go)
+  [接雨水](array/trap/main.go)
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
