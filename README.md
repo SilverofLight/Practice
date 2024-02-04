@@ -7,6 +7,7 @@
   [腐烂中的橘子](array/oriangeRotting/main.go)  
   [最大回文字段](array/Palindrome/main.go)   
   [外观数列](array/countAndSay/main.go)
+  [缺失的第一个正数](array/missingNum/main.go)
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
