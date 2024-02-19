@@ -9,7 +9,7 @@
   [外观数列](array/countAndSay/main.go)  
   [缺失的第一个正数](array/missingNum/main.go)  
   [接雨水](array/trap/main.go)  
-  [旋转图像](array/rotate/main.go)
+  [旋转图像](array/rotate/main.go)  
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
@@ -17,8 +17,8 @@
   [机器人走路的不同路径](dfs/robotWalking/main.go)  
   [解数独](dfs/solveSudoku/main.go)  
   [组合总和](dfs/combinationSum/main.go)
-  [全排列](dfs/permute/main.go)
-  [全排列2](dfs/permuteUnique/main.go)
+  [全排列](dfs/permute/main.go)  
+  [全排列2](dfs/permuteUnique/main.go)  
 
 ## dp
   [买卖股票的时间](dp/best_time_to_buy_stock/main.go)  
