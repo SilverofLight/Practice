@@ -9,6 +9,7 @@
   [外观数列](array/countAndSay/main.go)  
   [缺失的第一个正数](array/missingNum/main.go)  
   [接雨水](array/trap/main.go)  
+  [旋转图像](array/rotate/main.go)
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
