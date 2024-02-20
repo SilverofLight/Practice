@@ -20,6 +20,7 @@
   [组合总和](dfs/combinationSum/main.go)
   [全排列](dfs/permute/main.go)  
   [全排列2](dfs/permuteUnique/main.go)  
+  [N皇后](dfs/solveNQueens/main.go)
 
 ## dp
   [买卖股票的时间](dp/best_time_to_buy_stock/main.go)  
@@ -28,7 +29,7 @@
   [最大乘积](dp/maxProduct/main.go)  
   [最小路径和](dp/minimumTotal/main.go)  
   [青蛙跳台阶](dp/numWays/main.go)  
-  [pow](dp/pow/main.go)
+  [pow](dp/pow/main.go)  
 
 ## strings
   [字符串压缩](string/compressStrings/main.go)  
