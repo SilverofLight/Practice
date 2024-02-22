@@ -23,6 +23,7 @@
   [全排列](dfs/permute/main.go)  
   [全排列2](dfs/permuteUnique/main.go)  
   [N皇后](dfs/solveNQueens/main.go)
+  [第k个排列](dfs/getPermutation/main.go)
 
 ## dp
   [买卖股票的时间](dp/best_time_to_buy_stock/main.go)  
