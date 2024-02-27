@@ -13,6 +13,7 @@
   [字母异位词分组](array/groupAnagrams/main.go)  
   [螺旋矩阵](array/spiralOrder/main.go)  
   [跳跃游戏](array/canJump/main.go)  
+  [旋转链表](array/rotateRight/main.go)  
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
@@ -23,7 +24,7 @@
   [全排列](dfs/permute/main.go)  
   [全排列2](dfs/permuteUnique/main.go)  
   [N皇后](dfs/solveNQueens/main.go)
-  [第k个排列](dfs/getPermutation/main.go)
+  [第k个排列](dfs/getPermutation/main.go)  
 
 ## dp
   [买卖股票的时间](dp/best_time_to_buy_stock/main.go)  
