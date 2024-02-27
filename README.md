@@ -14,6 +14,7 @@
   [螺旋矩阵](array/spiralOrder/main.go)  
   [跳跃游戏](array/canJump/main.go)  
   [旋转链表](array/rotateRight/main.go)  
+  [加一](array/plusOne/main.go)  
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
