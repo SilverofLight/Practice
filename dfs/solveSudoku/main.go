@@ -1,5 +1,5 @@
 package main
-import "fmt"
+
 /*编写一个程序，通过填充空格来解决数独问题。
 
 数独的解法需 遵循如下规则：
@@ -28,7 +28,7 @@ import "fmt"
 		["2","8","7","4","1","9","6","3","5"],
 		["3","4","5","2","8","6","1","7","9"]]*/
 //需要使用递归的方法来实现
-func solveSudoku(board [][]byte){
+func solveSudoku(board [][]byte) {
 	//使用三个数组分别记录数字知否出现过，没出现为false，出现过为true
 	var line, colum [9][9]bool
 	var block [3][3][9]bool
@@ -38,8 +38,8 @@ func solveSudoku(board [][]byte){
 	for i, row := range board {
 		for j, b := range row {
 			if b == '.' {
-				space = append(space, [2]int{i,j})
-			}else {
+				space = append(space, [2]int{i, j})
+			} else {
 				digit := b - '1'
 				line[i][digit] = true
 				colum[j][digit] = true
@@ -55,7 +55,7 @@ func solveSudoku(board [][]byte){
 		if pos == len(space) {
 			return true
 		}
-		i,j := space[pos][0], space[pos][1]
+		i, j := space[pos][0], space[pos][1]
 		for digit := byte(0); digit < 9; digit++ {
 			if !line[i][digit] && !colum[j][digit] && !block[i/3][j/3][digit] {
 				line[i][digit] = true
