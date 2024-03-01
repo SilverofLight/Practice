@@ -35,7 +35,8 @@
   [最大乘积](dp/maxProduct/main.go)  
   [最小路径和](dp/minimumTotal/main.go)  
   [青蛙跳台阶](dp/numWays/main.go)  
-  [pow](dp/pow/main.go)  
+  [pow](dp/pow/main.go)   
+  [x的平方根](dp/mySqrt/main.go)   
 
 ## strings
   [字符串压缩](string/compressStrings/main.go)  
