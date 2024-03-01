@@ -16,6 +16,7 @@
   [旋转链表](array/rotateRight/main.go)  
   [加一](array/plusOne/main.go)  
   [二进制求和](array/addBinary/main.go)  
+  [路径简化](array/simplifyPath/main.go)  
 
 ## dfs
   [平衡树](dfs/balanceTree/main.go)  
