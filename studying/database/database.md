@@ -422,3 +422,39 @@ INSERT INTO `work_with` VALUES(208,402,9800);
 INSERT INTO `work_with` VALUES(209,403,24000);
 INSERT INTO `work_with` VALUES(210,404,87940);
 ```
+
+# 取得公司资料
+
+练习：
+
+一：取得所有员工资料
+
+```sql
+SELECT * FROM `employee`;
+```
+
+二：取得所有客户资料
+
+```sql
+SELECT * FROM `client`;
+```
+
+三：按薪水低到高取得员工资料
+
+```sql
+SELECT * FROM `employee` ORDER BY `salary`;
+```
+
+四：取得薪水前3高的员工
+
+```sql
+SELECT * FROM `employee`
+ORDER BY `salary` DESC
+LIMIT 3;
+```
+
+五：取得所有员工的名字
+
+```sql
+SELECT `name` FROM `employee`;
+```
