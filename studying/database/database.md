@@ -22,7 +22,7 @@
 
 Structure Query Language 结构性询问语言
 
-![Untitled](2.png)
+![Untitled](1.png)
 
 # 表格和键 tables & keys
 
@@ -39,7 +39,7 @@ table：
 
 连接到其他表格可以使用外键（foreign key）
 
-![Untitled](3.png)
+![Untitled](2.png)
 
 主键可以设置多个，一点要可以指定唯一的资料
 
