@@ -22,7 +22,7 @@
 
 Structure Query Language 结构性询问语言
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0b2496c-d2a5-4a29-b629-eea6aceb0fc3/205c755f-e4b3-479d-9b49-29ce9d5634bf/Untitled.png)
+![Untitled](2.png)
 
 # 表格和键 tables & keys
 
@@ -39,7 +39,7 @@ table：
 
 连接到其他表格可以使用外键（foreign key）
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0b2496c-d2a5-4a29-b629-eea6aceb0fc3/00900693-5785-4908-bcad-626a77fe031b/Untitled.png)
+![Untitled](3.png)
 
 主键可以设置多个，一点要可以指定唯一的资料
 
@@ -87,7 +87,7 @@ USE `sql_tutorial`;
 
 如要创建一下表格：
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f0b2496c-d2a5-4a29-b629-eea6aceb0fc3/37e7fb9b-aab4-4797-9406-4ff781ccce3a/Untitled.png)
+![Untitled](3.png)
 
 ```sql
 CREATE TABLE `student`(
