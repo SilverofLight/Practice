@@ -525,3 +525,33 @@ SELECT *
 FROM `employee`
 WHERE `birth_date` LIKE "_____12%";
 ```
+
+# 联集 union
+
+把多个内容合并在一起
+
+1.员工名字 union 客户名字
+
+```sql
+SELECT `name`
+FROM `employee`
+UNION
+SELECT `client_name`
+FROM `client`;
+```
+
+<aside>
+⚠️ 合并的多个内容数据类型必须相同，上面例子中都是VARCHAR
+UNION前后的数据数量必须相同
+
+</aside>
+
+2.员工ID + 员工名字 union 客户id + 客户名字
+
+```sql
+SELECT `emp_id`,`name`
+FROM `employee`
+UNION
+SELECT `client_id`,`client_name`
+FROM `client`;
+```
