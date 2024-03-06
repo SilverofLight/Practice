@@ -495,3 +495,33 @@ SELECT MAX(`salary`) FROM `employee`;
 ```
 
 MIN求最低
+
+# 万用字元 wildcard
+
+% 代表多个字元
+
+_ 代表一个字元
+
+1.取得电话尾号是335的客户
+
+```sql
+SELECT * 
+FROM `client`
+WHERE `phone` LIKE "%335";
+```
+
+2.取得姓艾的客户
+
+```sql
+SELECT *
+FROM `client`
+WHERE `client_name` LIKE "艾%";
+```
+
+3.取得生日在12月的员工
+
+```sql
+SELECT *
+FROM `employee`
+WHERE `birth_date` LIKE "_____12%";
+```
