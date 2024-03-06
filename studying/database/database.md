@@ -460,3 +460,38 @@ LIMIT 3;
 ```sql
 SELECT `name` FROM `employee`;
 ```
+
+# 聚合函数 aggregate function
+
+1.取得员工人数
+
+```sql
+SELECT COUNT(*) FROM `employee`;
+```
+
+2.取得所有出生于1970-01-01之后的女性员工人数
+
+```sql
+SELECT COUNT(*) FROM `employee`
+WHERE `birth_date` > "1970-01-01" AND `sex` = "F";
+```
+
+3.取得员工平均薪水
+
+```sql
+SELECT AVG(`salary`) FROM `employee`;
+```
+
+4.取得薪水总和
+
+```sql
+SELECT SUM(`salary`) FROM `employee`;
+```
+
+5.取得最高薪水
+
+```sql
+SELECT MAX(`salary`) FROM `employee`;
+```
+
+MIN求最低
