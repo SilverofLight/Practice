@@ -593,3 +593,31 @@ ON `emp_id` = `manager_id`;
 如果在JOIN前面加 LEFT， 表示左面的表格全部返回，右边的表格需要条件成立才返回。
 
 RIGHT同理
+
+# 子查询 subquery
+
+在一个查询语句里面插入另一个查询语句
+
+1.找出研发部门的经理名字
+
+```sql
+SELECT `name`
+FROM `employee`
+WHERE `emp_id` = (	
+		SELECT `manager_id`
+		FROM `branch`
+		WHERE `branch_name` = "研发"    //返回206
+);                                  //返回小黄
+```
+
+2.找出对单一用户销售金额超过50000的员工名字
+
+```sql
+SELECT `name`
+FROM `employee`
+WHERE `emp_id` = IN(     //这里用IN是因为找到的员工可能不止一个
+		SELECT `emp_id`
+		FROM `work_with`
+		WHERE `total_sales` > 50000
+);
+```
