@@ -288,3 +288,137 @@ SELECT *
 FROM `student`
 WHERE `major` = "英语" OR `score` > 40;
 ```
+
+# 创建公司资料库
+
+![Untitled](4.png)
+
+## 创建员工表格
+
+```sql
+CREATE TABLE `employee`(
+		`emp_id` INT PRIMARY KEY,
+		`name` VARCHAR(20),
+		`birth_date` DATE,
+		`sex` VARCHAR(1),
+		`salary` INT,
+		`branch_id` INT,
+		`sup_id` INT
+);
+```
+
+## 创建部门表格
+
+```sql
+	CREATE TABLE `branch`(
+		`branch_id` INT PRIMARY KEY,
+		`branch_name` VARCHAR(20),
+		`manager_id` INT,
+		FOREIGN KEY (`manager_id`) REFERENCES `employee`(`emp_id`) ON DELETE SET NULL
+		//把manager_id设定为employee里面的emp_id的foreign key。
+		// ON DELETE SET NULL后面再解释
+);
+```
+
+## 补上员工表格里的foreign key
+
+```sql
+ALTER TABLE `employee`
+ADD FOREIGN KEY(`branch_id`)
+REFERENCES `branch`(`branch_id`)
+ON DELETE SET NULL;
+
+ALTER TABLE `employee`
+ADD FOREIGN KEY(`sup_id`)
+REFERENCES `employee`(`sup_id`)
+ON DELETE SET NULL;
+```
+
+## 创建客户表格
+
+```sql
+CREATE TABLE `client`(
+		`client_id` INT PRIMARY KEY,
+		`client_name` VARCHAR(20),
+		`phone` VARCHAR(20)
+);
+```
+
+## 创建work with 表格
+
+```sql
+CREATE TABLE `work_with`(
+		`emp_id` INT,
+		`client_id` INT,
+		`total_sales` INT,
+		PRIMARY KEY(`emp_id`,`client_id`),
+		FOREIGN KEY (`emp_id`) REFERENCES `employee`(`emp_id`) ON DELETE CASCADE,
+		FOREIGN KEY (`client_id`) REFERENCES `client`(`client_id`) ON DELETE CASCADE
+);
+```
+
+## 新增资料
+
+如果先加employee
+
+```sql
+INSERT INTO `employee` VALUES(206,"小黄","1998-10-08","F",50000,1,NULL);
+```
+
+直接写或报错，因为还没有branch_id：1
+
+先设定branch，但是manager_id设定为NULL，然后设定employee，然后把manager_id加上
+
+### 添加branch：
+
+```sql
+INSERT INTO `branch` VALUES(1,"研发",NULL);
+INSERT INTO `branch` VALUES(2,"行政",NULL);
+INSERT INTO `branch` VALUES(3,"咨询",NULL);
+```
+
+### 添加employee：
+
+```sql
+INSERT INTO `employee` VALUES(206,"小黄","1998-10-08","F",50000,1,NULL);
+INSERT INTO `employee` VALUES(207,"小绿","1985-09-16","M",29000,2,206);
+INSERT INTO `employee` VALUES(208,"小黑","2000-12-19","M",35000,3,206);
+INSERT INTO `employee` VALUES(209,"小白","1997-01-22","F",39000,3,207);
+INSERT INTO `employee` VALUES(210,"小兰","1995-11-10","F",84000,1,207);
+```
+
+### 加上manager_id:
+
+```sql
+UPDATE `branch`
+SET `manager_id` = 206
+WHERE `branch_id` = 1;
+
+UPDATE `branch`
+SET `manager_id` = 207
+WHERE `branch_id` = 2;
+
+UPDATE `branch`
+SET `manager_id` = 208
+WHERE `branch_id` = 3;
+```
+
+### 新增client资料
+
+```sql
+INSERT INTO `client` VALUES(400,"阿狗","234352364");
+INSERT INTO `client` VALUES(401,"阿猫","574274626");
+INSERT INTO `client` VALUES(402,"旺来","857835756");
+INSERT INTO `client` VALUES(403,"露西","426573562");
+INSERT INTO `client` VALUES(404,"艾瑞克","246586835");
+```
+
+### 新增work with
+
+```sql
+INSERT INTO `work_with` VALUES(206,400,70000);
+INSERT INTO `work_with` VALUES(207,401,24000);
+INSERT INTO `work_with` VALUES(208,402,9800);
+INSERT INTO `work_with` VALUES(209,403,24000);
+INSERT INTO `work_with` VALUES(210,404,87940);
+```
