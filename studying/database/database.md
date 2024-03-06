@@ -238,3 +238,53 @@ WHERE `student_id` = 4;     //把id为4的资料删除
 💡 注：不等于写作  ‘<>’
 
 </aside>
+
+# 取得资料 select
+
+前面写过从student里面搜寻资料
+
+```sql
+SELECT * FROM `student`;
+```
+
+*表示取得所有的属性
+
+可以改成其中的项
+
+```sql
+SELECT `name`,`major` FROM `student`;
+```
+
+只返回name和major
+
+## 可以作排序
+
+```sql
+SELECT * FROM `student` ORDER BY `score`;
+```
+
+根据score作排序，由低到高
+
+```sql
+SELECT * FROM `student` ORDER BY `score` DESC;//DESC可以由高到底排序
+```
+
+## BY后面可以写多个属性
+
+```sql
+SELECT * FROM `student` ORDER BY `score`，`student_id`;//先排序score，如果score相同，再按id排序
+```
+
+## 限制资料数量
+
+```sql
+LIMIT 3；    //只返回前三个资料
+```
+
+## 同样可以用WHERE进行条件判断
+
+```sql
+SELECT * 
+FROM `student`
+WHERE `major` = "英语" OR `score` > 40;
+```
