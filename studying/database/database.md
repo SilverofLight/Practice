@@ -169,3 +169,72 @@ CREATE TABLE `student`(
 ```sql
 `student_id` INT AUTO_INCREMENT,   //在新增一行是，不需要再输入这一项，默认是上一行加1
 ```
+
+# 修改、删除资料 update & delete
+
+## 修改
+
+先把预设的更新模式关闭
+
+```sql
+SET SQL_SAFE_UPDATES = 0;
+```
+
+对于表格student：
+
+```sql
+CREATE TABLE `student`(
+		`student_id` INT PRIMARY KEY, 
+		`name` VARCHAR(20),
+		`major` VARCHAR(20),
+    `score` INT
+);
+```
+
+预先存入第一行
+
+```sql
+INSERT INTO `student` VALUES(1,"小白", "英语", 60);
+```
+
+把英语改为英语文学
+
+```sql
+UPDATE `student`              //更新student里的资料
+SET `major` = "英语文学"      //更新为英语文学
+WHERE `major` = "英语";       //条件判断，major为英语的
+```
+
+条件可以改成两个：
+
+```sql
+UPDATE `student`              //更新student里的资料
+SET `major` = "生化"      
+WHERE `major` = "生物" OR `major` = "化学";       
+```
+
+或者改两个
+
+```sql
+UPDATE `student`              //更新student里的资料
+SET `name` = "小灰"， `major` = "物理"   
+WHERE `student_id` = 1;       //把id是1的人改为小灰，物理
+```
+
+如果没有写条件，所有都改掉。
+
+## 删除
+
+```sql
+DELETE FROM `student`
+WHERE `student_id` = 4;     //把id为4的资料删除
+```
+
+条件一样可以写多个
+
+不写条件全部删除
+
+<aside>
+💡 注：不等于写作  ‘<>’
+
+</aside>
