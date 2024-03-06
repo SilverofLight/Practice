@@ -621,3 +621,31 @@ WHERE `emp_id` = IN(     //这里用IN是因为找到的员工可能不止一个
 		WHERE `total_sales` > 50000
 );
 ```
+
+# ON DELETE
+
+```sql
+	CREATE TABLE `branch`(
+		`branch_id` INT PRIMARY KEY,
+		`branch_name` VARCHAR(20),
+		`manager_id` INT,
+		FOREIGN KEY (`manager_id`) REFERENCES `employee`(`emp_id`) ON DELETE SET NULL
+);
+```
+
+其中员工小绿的emp_id 是 行政 部门的 manager_id
+
+如果小绿辞职了，manager_id 就设置成 NULL
+
+```sql
+CREATE TABLE `work_with`(
+		`emp_id` INT,
+		`client_id` INT,
+		`total_sales` INT,
+		PRIMARY KEY(`emp_id`,`client_id`),
+		FOREIGN KEY (`emp_id`) REFERENCES `employee`(`emp_id`) ON DELETE CASCADE,
+		FOREIGN KEY (`client_id`) REFERENCES `client`(`client_id`) ON DELETE CASCADE
+);
+```
+
+ON DELETE CASCADE表示如果这个foreign key不存在了，整行就跟着一起删除
