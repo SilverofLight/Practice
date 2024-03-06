@@ -541,7 +541,7 @@ FROM `client`;
 ```
 
 <aside>
-⚠️ 合并的多个内容数据类型必须相同，上面例子中都是VARCHAR
+⚠️ 合并的多个内容数据类型必须相同，上面例子中都是VARCHAR  
 UNION前后的数据数量必须相同
 
 </aside>
@@ -555,3 +555,41 @@ UNION
 SELECT `client_id`,`client_name`
 FROM `client`;
 ```
+
+# 连接 join
+
+把两个表格连接在一起
+
+在branch里新增一笔资料：
+
+```sql
+INSERT INTO `branch` VALUES(4,"偷懒",NULL);
+```
+
+取得所有部门经理的名字
+
+branch里只有经理id，没有名字
+
+```sql
+SELECT *
+FROM `employee`
+JOIN `branch`
+ON `emp_id` = `manager_id`;
+```
+
+返回三笔资料，10列数据
+
+如果只返回id、姓名和部门：
+
+```sql
+SELECT `emp_id`,`name`,`branch_name`
+FROM `employee`
+JOIN `branch`
+ON `emp_id` = `manager_id`;
+```
+
+如果两个表格有重复的列名称，可以使用  ``表格名` + . + `列名称``  来表示
+
+如果在JOIN前面加 LEFT， 表示左面的表格全部返回，右边的表格需要条件成立才返回。
+
+RIGHT同理
