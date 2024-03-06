@@ -1,5 +1,7 @@
 # 什么是资料库？
 
+本文notion链接：[notion](https://petite-marimba-388.notion.site/e96b89e213ae42eabe51ac7279775cff?pvs=4)
+
 ## 关联式资料库（SQL）
 
 - MySQL
