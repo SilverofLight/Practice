@@ -42,9 +42,8 @@ func login(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	var err error
-	db, err = sql.Open("Go-database",
-		"root:woshi1gg@tcp(127.0.0.1:3306)/user?charset=utf8",
-	)
+	db, err = sql.Open("mysql",
+		"root:woshi1gg@tcp(127.0.0.1:3306)/Go-database?charset=utf8")
 	checkErr(err)
 	http.HandleFunc("/login", login)
 	http.HandleFunc("/info", userInfo)
@@ -62,7 +61,7 @@ func checkErr(err error) {
 
 func queryByName(name string) User { //按照用户名查询
 	user := User{}
-	stmt, err := db.Prepare("select * form user where name=?")
+	stmt, err := db.Prepare("select * from user where name=?")
 	if err != nil {
 		log.Println("prepare error: ", err)
 		return user
@@ -89,13 +88,13 @@ func queryByName(name string) User { //按照用户名查询
 		}
 		fmt.Printf("{%d, %s, %s, %s}\n", id, name, habits, createdTime)
 		user = User{id, name, habits, createdTime}
-		break
+
 	}
 	return user
 }
 
 func store(user User) {
-	stmt, err := db.Prepare("INSERT INTO user SET name=?,habit=?,createdTime=?")
+	stmt, err := db.Prepare("INSERT INTO user SET name=?,habits=?,created_time=?")
 	if err != nil {
 		log.Println("Prepare error: ", err)
 		return
