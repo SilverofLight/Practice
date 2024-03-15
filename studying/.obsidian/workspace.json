@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法与数据结构（mao888）/2. 排序算法全解析/时间复杂度O(n log n)级排序.md",
+                "file": "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法与数据结构（mao888）/2. 排序算法全解析/时间复杂度O(n log n)级排序.md",
+                "file": "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法与数据结构（mao888）/2. 排序算法全解析/时间复杂度O(n log n)级排序.md",
+                "file": "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法与数据结构（mao888）/2. 排序算法全解析/时间复杂度O(n log n)级排序.md"
+                "file": "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md"
               }
             }
           }
@@ -148,10 +147,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f4ea35e51bf5b253",
+  "active": "e1da241d4cfc3870",
   "lastOpenFiles": [
-    "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n 2)级排序算法.md",
-    "算法与数据结构（mao888）/2. 排序算法全解析/时间复杂度O(n log n)级排序.md",
+    "未命名",
+    "算法与数据结构（mao888）/2. 排序算法全解析/2. 时间复杂度O(n log n)级排序.md",
+    "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md",
     "算法与数据结构（mao888）/1. 算法基础.md",
     "算法与数据结构（mao888）/2. 排序算法全解析",
     "learningWeb/02 通过Go构建服务器.md",
