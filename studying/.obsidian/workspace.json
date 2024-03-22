@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/01. Gin源码解析/2. 请求处理.md",
+                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/01. Gin源码解析/2. 请求处理.md",
+                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/01. Gin源码解析/2. 请求处理.md",
+                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/01. Gin源码解析/2. 请求处理.md"
+                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md"
               }
             }
           },
@@ -161,8 +162,12 @@
   },
   "active": "42be9845c028de08",
   "lastOpenFiles": [
-    "Gin框架/01. Gin源码解析/1. Radix树介绍.md",
+    "Gin框架/mySQL/1. Go 连接 MySQL.md",
+    "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
+    "database/database.md",
+    "Gin框架/mySQL",
     "Gin框架/01. Gin源码解析/2. 请求处理.md",
+    "Gin框架/01. Gin源码解析/1. Radix树介绍.md",
     "Gin框架/01. Gin源码解析/Pasted image 20240321195146.png",
     "算法与数据结构/01. 什么是数据结构.md",
     "Gin框架/01. Gin源码解析/Pasted image 20240321193208.png",
@@ -183,7 +188,6 @@
     "learningWeb/03. 接受和处理请求.md",
     "learningWeb/02 通过Go构建服务器.md",
     "learningWeb/01. Web工作原理.md",
-    "database/database.md",
     "算法与数据结构（mao888）/1. 算法基础.md",
     "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md",
     "算法与数据结构/03. 顺序表和链表.md",
