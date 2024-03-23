@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
+                "file": "Gin框架/mySQL/05. Go 实现 MySQL 事务.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
+                "file": "Gin框架/mySQL/05. Go 实现 MySQL 事务.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
+                "file": "Gin框架/mySQL/05. Go 实现 MySQL 事务.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md"
+                "file": "Gin框架/mySQL/05. Go 实现 MySQL 事务.md"
               }
             }
           },
@@ -160,9 +159,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e1da241d4cfc3870",
+  "active": "42be9845c028de08",
   "lastOpenFiles": [
     "Gin框架/mySQL/02. databasesql与mysql注册驱动详解.md",
+    "Gin框架/mySQL/05. Go 实现 MySQL 事务.md",
+    "Gin框架/mySQL/图片",
+    "Gin框架/mySQL/图片/Pasted image 20240323110508.png",
     "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
     "Gin框架/mySQL/01. Go 连接 MySQL.md",
     "Gin框架/mySQL/03. 增删改查.md",
@@ -192,7 +194,6 @@
     "learningWeb/01. Web工作原理.md",
     "算法与数据结构（mao888）/1. 算法基础.md",
     "算法与数据结构（mao888）/2. 排序算法全解析/1.时间复杂度为O(n的2次)级排序算法.md",
-    "算法与数据结构/03. 顺序表和链表.md",
     "算法与数据结构（mao888）/2. 排序算法全解析",
     "算法与数据结构（mao888）",
     "database/2.png",
