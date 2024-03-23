@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
+                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
+                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
+                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md"
+                "file": "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md"
               }
             }
           },
@@ -160,10 +160,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "42be9845c028de08",
+  "active": "e1da241d4cfc3870",
   "lastOpenFiles": [
-    "Gin框架/mySQL/1. Go 连接 MySQL.md",
-    "Gin框架/mySQL/2. databasesql与mysql注册驱动详解.md",
+    "Gin框架/mySQL/02. databasesql与mysql注册驱动详解.md",
+    "Gin框架/mySQL/04. MySQL 预处理与 SQL 注入.md",
+    "Gin框架/mySQL/01. Go 连接 MySQL.md",
+    "Gin框架/mySQL/03. 增删改查.md",
     "database/database.md",
     "Gin框架/mySQL",
     "Gin框架/01. Gin源码解析/2. 请求处理.md",
