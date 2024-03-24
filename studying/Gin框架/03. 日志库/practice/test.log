@@ -1,0 +1,2 @@
+{"level":"error","ts":1711292463.7031796,"msg":"error fetching url..","url":"www.baidu.com","error":"Get \"www.baidu.com\": unsupported protocol scheme \"\""}
+{"level":"info","ts":1711292463.7603748,"msg":"Success..","statusCode":"200 OK","url":"http://www.baidu.com"}

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/03. 日志库/01. zap.md",
+                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/03. 日志库/01. zap.md",
+                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/03. 日志库/01. zap.md",
+                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/03. 日志库/01. zap.md"
+                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md"
               }
             }
           },
@@ -160,10 +159,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e1da241d4cfc3870",
+  "active": "7999449eb0431c50",
   "lastOpenFiles": [
-    "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
+    "Gin框架/03. 日志库/practice/test.log",
     "Gin框架/03. 日志库/01. zap.md",
+    "Gin框架/03. 日志库/practice/go.sum",
+    "Gin框架/03. 日志库/practice/go.mod",
+    "Gin框架/03. 日志库/practice/main.go",
+    "Gin框架/03. 日志库/practice",
+    "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
     "Gin框架/02. 数据库/06. 使用 sqlx 连接 MySQL.md",
     "Gin框架/02. 数据库/07. sqlx In 函数介绍和使用.md",
     "Gin框架/02. 数据库/05. Go 实现 MySQL 事务.md",
@@ -196,9 +200,6 @@
     "learningWeb/Template.md",
     "learningWeb/06. Golang ORM的beego实现.md",
     "learningWeb/05. 服务端数据存储.md",
-    "learningWeb/04. Gin实践.md",
-    "算法与数据结构（mao888）/2. 排序算法全解析",
-    "算法与数据结构（mao888）",
     "database/2.png",
     "database/1.png"
   ]
