@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接受 gin 框架默认的日志并配置日志归档.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接受 gin 框架默认的日志并配置日志归档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接受 gin 框架默认的日志并配置日志归档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md"
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接受 gin 框架默认的日志并配置日志归档.md"
               }
             }
           },
@@ -161,13 +162,14 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
+    "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
+    "Gin框架/03. 日志库/03. 使用 zap 接受 gin 框架默认的日志并配置日志归档.md",
     "Gin框架/03. 日志库/practice/test.log",
     "Gin框架/03. 日志库/01. zap.md",
     "Gin框架/03. 日志库/practice/go.sum",
     "Gin框架/03. 日志库/practice/go.mod",
     "Gin框架/03. 日志库/practice/main.go",
     "Gin框架/03. 日志库/practice",
-    "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
     "Gin框架/02. 数据库/06. 使用 sqlx 连接 MySQL.md",
     "Gin框架/02. 数据库/07. sqlx In 函数介绍和使用.md",
     "Gin框架/02. 数据库/05. Go 实现 MySQL 事务.md",
@@ -195,7 +197,6 @@
     "算法与数据结构（mao888）/3. 进制和位运算/进制.md",
     "算法与数据结构（mao888）/3. 进制和位运算/整数在计算机里的表示方式.md",
     "算法与数据结构（mao888）/2. 排序算法全解析/3. 时间复杂度O(n)级排序算法.md",
-    "算法与数据结构（mao888）/3. 进制和位运算",
     "算法与数据结构（mao888）/2. 排序算法全解析/2. 时间复杂度O(n log n)级排序.md",
     "learningWeb/Template.md",
     "learningWeb/06. Golang ORM的beego实现.md",
