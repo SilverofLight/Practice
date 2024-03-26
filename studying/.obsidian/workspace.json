@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接收 gin 框架默认的日志并配置日志归档.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接收 gin 框架默认的日志并配置日志归档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接收 gin 框架默认的日志并配置日志归档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md"
+                "file": "Gin框架/03. 日志库/03. 使用 zap 接收 gin 框架默认的日志并配置日志归档.md"
               }
             }
           },
@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,10 +160,10 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
-    "Gin框架/03. 日志库/03. 使用 zap 接受 gin 框架默认的日志并配置日志归档.md",
     "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
-    "Gin框架/03. 日志库/01. zap.md",
+    "Gin框架/03. 日志库/03. 使用 zap 接收 gin 框架默认的日志并配置日志归档.md",
     "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+    "Gin框架/03. 日志库/01. zap.md",
     "Gin框架/02. 数据库/08. go-redis.md",
     "Gin框架/02. 数据库/07. sqlx In 函数介绍和使用.md",
     "Gin框架/02. 数据库/05. Go 实现 MySQL 事务.md",
