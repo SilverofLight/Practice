@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+                "file": "Gin框架/03. 日志库/05. 从Viper获取配置信息.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+                "file": "Gin框架/03. 日志库/05. 从Viper获取配置信息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+                "file": "Gin框架/03. 日志库/05. 从Viper获取配置信息.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md"
+                "file": "Gin框架/03. 日志库/05. 从Viper获取配置信息.md"
               }
             }
           },
@@ -162,9 +162,10 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
+    "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
+    "Gin框架/03. 日志库/05. 从Viper获取配置信息.md",
     "Gin框架/03. 日志库/03. 使用 zap 接收 gin 框架默认的日志并配置日志归档.md",
     "Gin框架/03. 日志库/02. zap 日志库自定义配置项.md",
-    "Gin框架/03. 日志库/04. 使用 viper 读取配置文件（配置热加载）.md",
     "Gin框架/03. 日志库/01. zap.md",
     "Gin框架/02. 数据库/08. go-redis.md",
     "Gin框架/02. 数据库/07. sqlx In 函数介绍和使用.md",
@@ -200,7 +201,6 @@
     "算法与数据结构（mao888）/2. 排序算法全解析/3. 时间复杂度O(n)级排序算法.md",
     "算法与数据结构（mao888）/2. 排序算法全解析/2. 时间复杂度O(n log n)级排序.md",
     "learningWeb/Template.md",
-    "learningWeb/06. Golang ORM的beego实现.md",
     "database/2.png",
     "database/1.png"
   ]
