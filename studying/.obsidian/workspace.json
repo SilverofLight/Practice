@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/02. Metadata cheat sheet.md",
+                "file": "前端/03. Input types.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/02. Metadata cheat sheet.md",
+                "file": "前端/03. Input types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/02. Metadata cheat sheet.md",
+                "file": "前端/03. Input types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/02. Metadata cheat sheet.md"
+                "file": "前端/03. Input types.md"
               }
             }
           },
@@ -161,8 +162,9 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
-    "前端/01. HTML cheat sheet.md",
     "前端/02. Metadata cheat sheet.md",
+    "前端/03. Input types.md",
+    "前端/01. HTML cheat sheet.md",
     "Gin框架/03. 日志库/06. 优雅地关机和重启.md",
     "前端",
     "Gin框架/03. 日志库/05. 从Viper获取配置信息.md",
@@ -199,7 +201,6 @@
     "算法与数据结构（mao888）/3. 进制和位运算/例题.md",
     "算法与数据结构（mao888）/3. 进制和位运算/位运算符的概念和性质.md",
     "算法与数据结构（mao888）/3. 进制和位运算/进制.md",
-    "算法与数据结构（mao888）/3. 进制和位运算/整数在计算机里的表示方式.md",
     "database/2.png",
     "database/1.png"
   ]
