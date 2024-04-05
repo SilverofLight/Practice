@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/CSS/07. CSS Pseudo cheat sheet.md",
+                "file": "前端/CSS/09. CSS keyframes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/CSS/07. CSS Pseudo cheat sheet.md",
+                "file": "前端/CSS/09. CSS keyframes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/CSS/07. CSS Pseudo cheat sheet.md",
+                "file": "前端/CSS/09. CSS keyframes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/CSS/07. CSS Pseudo cheat sheet.md"
+                "file": "前端/CSS/09. CSS keyframes.md"
               }
             }
           },
@@ -161,9 +162,11 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
+    "前端/CSS/08. Text effects cheat sheet.md",
+    "前端/CSS/09. CSS keyframes.md",
+    "前端/CSS/07. CSS Pseudo cheat sheet.md",
     "前端/CSS/06. Pseudo-element.md",
     "前端/CSS/05. All selectors and their specificity.md",
-    "前端/CSS/07. CSS Pseudo cheat sheet.md",
     "ik0QcFB_T_GNEHBQf4_xMw_bf608e673a0941bba2048e98289e4ce1_Picture22.png",
     "9I5kNQR4QLmOZDUEeOC5Vg_6db68966311a40faac1ec96a0458c7e1_Picture77.png",
     "ikoFt7vUS1qKBbe71Ita7Q_c1ed63555296483094650eb4c49b37e1_Understanding-Flexbox.png",
@@ -196,9 +199,7 @@
     "Gin框架/03. 日志库/practice/main.go",
     "Gin框架/03. 日志库/practice",
     "Gin框架/02. 数据库/06. 使用 sqlx 连接 MySQL.md",
-    "Gin框架/02. 数据库/03. 增删改查.md",
     "Gin框架/03. 日志库",
-    "图片.md",
     "Gin框架/02. 数据库/图片/条件.png",
     "Gin框架/02. 数据库/图片",
     "Gin框架/01. Gin源码解析/Pasted image 20240321195146.png",
