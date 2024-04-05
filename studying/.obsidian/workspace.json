@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/CSS/09. CSS keyframes.md",
+                "file": "前端/CSS/10. Animation and effects cheat sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/CSS/09. CSS keyframes.md",
+                "file": "前端/CSS/10. Animation and effects cheat sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/CSS/09. CSS keyframes.md",
+                "file": "前端/CSS/10. Animation and effects cheat sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/CSS/09. CSS keyframes.md"
+                "file": "前端/CSS/10. Animation and effects cheat sheet.md"
               }
             }
           },
@@ -162,8 +162,9 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
-    "前端/CSS/08. Text effects cheat sheet.md",
     "前端/CSS/09. CSS keyframes.md",
+    "前端/CSS/10. Animation and effects cheat sheet.md",
+    "前端/CSS/08. Text effects cheat sheet.md",
     "前端/CSS/07. CSS Pseudo cheat sheet.md",
     "前端/CSS/06. Pseudo-element.md",
     "前端/CSS/05. All selectors and their specificity.md",
@@ -198,7 +199,6 @@
     "Gin框架/03. 日志库/practice/go.mod",
     "Gin框架/03. 日志库/practice/main.go",
     "Gin框架/03. 日志库/practice",
-    "Gin框架/02. 数据库/06. 使用 sqlx 连接 MySQL.md",
     "Gin框架/03. 日志库",
     "Gin框架/02. 数据库/图片/条件.png",
     "Gin框架/02. 数据库/图片",
