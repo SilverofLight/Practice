@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/CSS/04. Grid template area.md",
+                "file": "前端/CSS/05. All selectors and their specificity.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#div",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0b0bc17c4efa0c1",
@@ -85,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/CSS/04. Grid template area.md",
+                "file": "前端/CSS/05. All selectors and their specificity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/CSS/04. Grid template area.md",
+                "file": "前端/CSS/05. All selectors and their specificity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/CSS/04. Grid template area.md"
+                "file": "前端/CSS/05. All selectors and their specificity.md"
               }
             }
           },
@@ -161,8 +163,9 @@
   },
   "active": "7999449eb0431c50",
   "lastOpenFiles": [
-    "前端/CSS/02. CSS units of measurement.md",
     "前端/CSS/04. Grid template area.md",
+    "前端/CSS/05. All selectors and their specificity.md",
+    "前端/CSS/02. CSS units of measurement.md",
     "前端/CSS/03. Grids and flex box cheat sheet.md",
     "前端/CSS/01. flexbox.md",
     "ikoFt7vUS1qKBbe71Ita7Q_c1ed63555296483094650eb4c49b37e1_Understanding-Flexbox.png",
@@ -198,7 +201,6 @@
     "Gin框架/02. 数据库/图片",
     "database/database.md",
     "Gin框架/01. Gin源码解析/2. 请求处理.md",
-    "Gin框架/01. Gin源码解析/1. Radix树介绍.md",
     "Gin框架/01. Gin源码解析/Pasted image 20240321195146.png",
     "Gin框架/01. Gin源码解析/Pasted image 20240321193208.png",
     "database/2.png",
